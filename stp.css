@@ -1,0 +1,289 @@
+  
+.box1 {
+  /* padding-top: 1vh; */
+  position: absolute;
+  width: 100vw;
+  height: 95vh;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  box-sizing: border-box;
+  /* padding-bottom: 50px; */
+
+}
+
+
+
+.box1::before{
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.25;
+  background-image: url("fondo1.jpg");
+  position: absolute;
+  z-index: -1;
+  image-rendering: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform: translateZ(-1px) scale(1);
+}
+
+
+
+  /* .box{
+    position: absolute;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+
+    background-image: url(fondo1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+   
+  } */
+  
+  /* .box1{
+    width: 100vw;
+    height: 100vh;
+    background:#142756;
+    position: relative; 
+    opacity: 0.85;
+    
+     
+  } */
+
+  .box{
+    width: 100vw;
+    height: 100vh;
+    background:#142756;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+     
+  }
+
+  .box2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 2em;
+    grid-auto-rows: (100vh,auto);
+    position:relative;
+    
+  }
+  .sect1{
+  
+   position: relative;
+   padding: 2em;
+   grid-column: 1/2;
+   justify-self: end;
+   
+      
+  }
+  .sect2{
+    padding: 20px;
+    grid-column: 2/3;
+    /* color: orangered; */
+    
+    
+  }
+  
+  .sect2 a {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px 5px;
+    text-decoration: none;
+    
+  }
+
+  .sect2 a:hover {
+    color:  #d8fd01;
+  }
+
+   .sect3{
+    grid-column: 3/4;
+    
+
+   }
+   .sect4{
+    grid-column: 2/3;
+    text-align: center;
+     
+   }
+   .sect5{
+    grid-column: 2/3;
+    text-align: center;
+     
+   }
+
+   /* pagina 2 */
+   .pagina2{
+    padding-top: 100vh;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(207, 210, 211);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    z-index: -1;
+    position: relative;
+  }
+  /* .pagina2::before{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: translateZ(-1px) scale(1);
+
+  } */
+
+  .box21{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    grid-auto-rows: (100vh,auto);
+    position:relative;
+    
+  }
+
+  .sec21{
+    grid-column: 2/3;
+    font-family: popi;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+  }
+
+  .sec22{
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .sec23{
+    grid-column: 2/3;
+  }
+
+  .sec24{
+    grid-column: 3/4;
+    align-self: end;
+  }
+
+  @font-face{
+     font-family: Exo;
+     src: url(Exo-ExtraLight.ttf);
+    }
+  @font-face{
+    font-family: popi;
+    src: url(Poppins-Bold.otf);
+  }
+  @font-face{
+    font-family: anomy;
+    src: url(Anonymous_Pro.ttf);
+  }
+  .fontTitle{
+  font-family: Exo;
+  font-size: 5rem;
+  color: #f0faff;
+  }
+  .fontTile2{
+    font-family:Exo;
+    font-size: 5rem;
+    color: #d8fd01;
+  }
+
+  .fontLetter1{
+    /* font-family:url(Exo-ExtraLight.otf); */
+    font-family: Exo;
+    font-size: 1.5rem;
+    color: #f0faff;
+    }
+  .fontLetter2{
+    font-family:Exo;
+    font-size: 1.5rem;
+    color: #d8fd01;
+  }
+  .redc{
+    color: white;
+
+  }
+  .whitec{
+    color: rgb(27, 23, 23);
+  }
+  #texsec22{
+    font-family: Exo;
+    font-size: 1.5em;
+    color: black;
+  }
+
+  /* progress bar */
+  .progress{
+    width: 90%;
+    background: rgb(207, 210, 211);
+    height: 22px;
+    margin: 15px;
+  }
+  #texsec23{
+    font-family: popi;
+    font-size: 0.6em;
+    color: rgb(70, 53, 53);
+  }
+
+  .html, .css, .jquery, .php, .ilus, .htmm, .java {
+      width: 0;
+      background: #d8fd01;
+      height: 15px;
+      line-height: 19px;
+      padding: 0 2px
+  }
+
+
+  @media(max-width: 786px) {
+
+    .fontLetter1{
+      /* font-family:url(Exo-ExtraLight.otf); */
+      font-family: Exo;
+      font-size: 0.5rem;
+      color: #f0faff;
+      }
+
+      .sect2{
+        padding: 1px;
+        grid-column: 2/4;
+        /* color: orangered; */
+      }
+      .sect4{
+        grid-column: 1/4;
+        text-align: center;
+         
+       }
+       .sect5{
+        grid-column: 1/4;
+        text-align: center;
+         
+       }
+       
+
+       #texsec22{
+        font-family: Exo;
+        font-size: 0.8em;
+        color: black;
+      }
+
+      .sec21{
+        grid-column: 1/4;
+        font-family: popi;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 1em;
+      }
+
+  }

@@ -1,0 +1,238 @@
+
+  .light {
+    font-family:neon;
+    font-size: 9rem;
+    color: #ffd8d8;
+
+  }
+  .lightb {
+    font-family:neon;
+    font-size: 9rem;
+    color: #3537a5;
+
+  }
+  .thinf {
+    font-family:url("Exo-ExtraLight.otf");
+    font-size: 5rem;
+    color: #f0faff;
+  }
+
+  .thinfg {
+    font-family:url("Exo-ExtraLight.otf");
+    font-size: 5rem;
+    color: #d8fd01;
+  }
+  /* Responsive Way */
+#Contorno1 {
+    padding-left:290px;
+    padding-top: 150px;
+    text-align: auto;
+    /* padding-left: 10%; */
+    justify-content: center;
+    color: #d8fd01;
+    position: absolute;
+    
+}
+
+.contornop {
+  padding-top: 10px;
+  padding-bottom: 0%;
+  text-align: auto;
+  padding-left: 25%;
+  justify-content: center;
+  color: #f0faff;
+  font-family:url(Exo-ExtraLight.otf);
+  font-size: 1rem;
+}
+#contornop2{
+  padding-top: 10px;
+  padding-bottom: 0%;
+  text-align: auto;
+  padding-left: 35%;
+  justify-content: center;
+  color: #d8fd01;
+  font-family:url(Exo-ExtraLight.otf);
+  font-size: 1rem;
+}
+
+
+.parallax-wrapper {
+  /* padding-top: 1vh; */
+  width: 100vw;
+  height: 95vh;
+  box-sizing: border-box;
+  /* padding-bottom: 50px; */
+
+}
+
+
+
+.parallax-wrapper::before{
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url("fondo1.jpg");
+  position: absolute;
+  opacity: 0.3;
+  z-index: -1;
+  image-rendering: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateZ(-1px) scale(1);
+}
+
+
+
+.regular-wrapper {
+  padding-top: 0vh;
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url('fondo1.jpg'); */
+  background-color: #f0faff;
+  image-rendering: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: 0;
+  position: relative;
+}
+
+
+
+/* Estilo Barra de Navegacion */
+
+  .Responav{
+    background-color: #142756;
+
+  }
+
+  .topnav {
+  background-color:#142756;
+  /* color: orangered; */
+  font-size: 20px;
+  text-align: center;
+  /* padding-left: 30%; */
+}
+.topnav a {
+  /* float: right; */
+  display: auto;
+  color: #f2f2f2;
+  position: relative;
+  justify-content: center;
+  padding: 8px 15px;
+  text-decoration: none;
+  
+}
+.topnav a:hover {
+  background-color: rgb(141, 223, 35);
+  color: rgb(82, 118, 185);
+}
+
+.logo{
+padding-left: 20%;
+display: block;
+/* padding-top: 30px; */
+position: absolute;
+width: 80px;
+height: 80px;
+}
+
+
+@media(max-width: 786px) {
+  .topnav {
+    background-color:#142756;
+    /* color: orangered; */
+    font-size: 10px;
+    text-align: center;
+    /* padding-left: 30%; */
+  }
+  .topnav a {
+    /* float: right; */
+    display: auto;
+    color: #f2f2f2;
+    position: relative;
+    justify-content: center;
+    padding: 8px 15px;
+    text-decoration: none;
+    
+  }
+  .topnav a:hover {
+    background-color: rgb(141, 223, 35);
+    color: rgb(82, 118, 185);
+  }
+  
+  .logo{
+  padding-left: 2%;
+  display: block;
+  /* padding-top: 30px; */
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  }
+
+
+
+  #Contorno1 {
+    padding-left:120px;
+    padding-top: 150px;
+    text-align: auto;
+    justify-content: center;
+    color: #d8fd01;
+    position: absolute;
+    
+}
+
+.contornop {
+  padding-top: 10px;
+  padding-bottom: 0%;
+  text-align: auto;
+  padding-left: 5%;
+  justify-content: center;
+  color: #f0faff;
+  font-family:url(Exo-ExtraLight.otf);
+  font-size: 1rem;
+}
+#contornop2{
+  padding-top: 10px;
+  padding-bottom: 0%;
+  text-align: auto;
+  padding-left: 15%;
+  justify-content: center;
+  color: #d8fd01;
+  font-family:url(Exo-ExtraLight.otf);
+  font-size: 1rem;
+}
+
+
+.thinf {
+  font-family:url("Exo-ExtraLight.otf");
+  font-size: 3rem;
+  color: #f0faff;
+}
+
+.thinfg {
+  font-family:url("Exo-ExtraLight.otf");
+  font-size: 3rem;
+  color: #d8fd01;
+}
+
+
+
+.regular-wrapper {
+  padding-top: 20vh;
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url('fondo1.jpg'); */
+  background-color: #f0faff;
+  image-rendering: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: 0;
+  position: relative;
+}
+
+
+}
